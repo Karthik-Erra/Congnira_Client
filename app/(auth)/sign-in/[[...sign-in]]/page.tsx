@@ -1,12 +1,11 @@
-import React from 'react'
-import { SignIn } from '@clerk/nextjs'
+import { SignIn } from "@clerk/nextjs";
 
 function SignInPage() {
   return (
-    <div className='flex items-center justify-center min-h-screen bg-zinc-50 dark:bg-black'>
-        <SignIn />
+    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+      <SignIn />
     </div>
-  )
+  );
 }
 
-export default SignInPage
+export default SignInPage;
